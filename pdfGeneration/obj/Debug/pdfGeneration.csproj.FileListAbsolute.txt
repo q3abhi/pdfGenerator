@@ -1,0 +1,11 @@
+D:\practice\pdfGeneration\pdfGeneration\bin\Debug\pdfGeneration.dll
+D:\practice\pdfGeneration\pdfGeneration\bin\Debug\pdfGeneration.pdb
+D:\practice\pdfGeneration\pdfGeneration\bin\Debug\PdfSharp.Charting.dll
+D:\practice\pdfGeneration\pdfGeneration\bin\Debug\PdfSharp.dll
+D:\practice\pdfGeneration\pdfGeneration\bin\Debug\PdfSharp.xml
+D:\practice\pdfGeneration\pdfGeneration\bin\Debug\PdfSharp.Charting.xml
+D:\practice\pdfGeneration\pdfGeneration\bin\Debug\de\PdfSharp.resources.dll
+D:\practice\pdfGeneration\pdfGeneration\bin\Debug\de\PdfSharp.Charting.resources.dll
+D:\practice\pdfGeneration\pdfGeneration\obj\Debug\pdfGeneration.csprojResolveAssemblyReference.cache
+D:\practice\pdfGeneration\pdfGeneration\obj\Debug\pdfGeneration.dll
+D:\practice\pdfGeneration\pdfGeneration\obj\Debug\pdfGeneration.pdb

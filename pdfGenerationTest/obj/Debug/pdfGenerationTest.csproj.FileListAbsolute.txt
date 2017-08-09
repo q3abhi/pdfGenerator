@@ -1,0 +1,10 @@
+D:\practice\pdfGeneration\pdfGenerationTest\bin\Debug\pdfGenerationTest.dll
+D:\practice\pdfGeneration\pdfGenerationTest\bin\Debug\pdfGenerationTest.pdb
+D:\practice\pdfGeneration\pdfGenerationTest\bin\Debug\pdfGeneration.dll
+D:\practice\pdfGeneration\pdfGenerationTest\bin\Debug\PdfSharp.dll
+D:\practice\pdfGeneration\pdfGenerationTest\bin\Debug\pdfGeneration.pdb
+D:\practice\pdfGeneration\pdfGenerationTest\bin\Debug\PdfSharp.xml
+D:\practice\pdfGeneration\pdfGenerationTest\bin\Debug\de\PdfSharp.resources.dll
+D:\practice\pdfGeneration\pdfGenerationTest\obj\Debug\pdfGenerationTest.csprojResolveAssemblyReference.cache
+D:\practice\pdfGeneration\pdfGenerationTest\obj\Debug\pdfGenerationTest.dll
+D:\practice\pdfGeneration\pdfGenerationTest\obj\Debug\pdfGenerationTest.pdb

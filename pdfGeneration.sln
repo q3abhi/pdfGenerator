@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdfGeneration", "pdfGeneration\pdfGeneration.csproj", "{4B0FDCF3-C3A6-415C-B0C3-67FC7DA86467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdfGenerationTest", "pdfGenerationTest\pdfGenerationTest.csproj", "{1795C30E-5A54-4D1A-8ADD-0B1C269B1125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B0FDCF3-C3A6-415C-B0C3-67FC7DA86467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0FDCF3-C3A6-415C-B0C3-67FC7DA86467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0FDCF3-C3A6-415C-B0C3-67FC7DA86467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0FDCF3-C3A6-415C-B0C3-67FC7DA86467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1795C30E-5A54-4D1A-8ADD-0B1C269B1125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1795C30E-5A54-4D1A-8ADD-0B1C269B1125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1795C30E-5A54-4D1A-8ADD-0B1C269B1125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1795C30E-5A54-4D1A-8ADD-0B1C269B1125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
