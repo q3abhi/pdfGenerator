@@ -21,36 +21,9 @@ namespace pdfGeneration
         public void BuildPdfDocument(string filename)
         {
 
+            var pdfDocumentTemplate = templateBuilder.GetTemplate();
 
-            var pdfTemplate = templateBuilder.GetTemplate();
-
-
-            // Create a new PDF document
-            var document = GetPdfDocument();
-           
-            var page = AddNewPage(document);
-
-            var graphics = GetGraphicsObject(page);
-
-            var outRectangle = GetOuterRectangle(page);
-
-
-
-
-            var pen = GetBlackPen();
-
-            graphics.DrawRectangle(pen, outRectangle);
-        
-
-       /*     gfx.DrawRoundedRectangle(XBrushes.Orange, 130, 0, 100, 60, 30, 20);
-
-            gfx.DrawRoundedRectangle(pen, XBrushes.Orange, 10, 80, 100, 60, 30, 20);
-
-            gfx.DrawRoundedRectangle(pen, XBrushes.Orange, 150, 80, 60, 60, 20, 20);   */
-
-
-            // Save the document...
-            document.Save(filename);
+            pdfDocumentTemplate.Save(filename);
         }
 
         public PdfPage AddNewPage(PdfDocument document)

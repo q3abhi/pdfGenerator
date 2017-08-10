@@ -3,10 +3,10 @@ using System;
 using pdfGeneration;
 namespace pdfTests
 {
-	[TestFixture ()]
+	[TestFixture]
 	public class PdfBuilderTest
 	{
-		[Test ()]
+		[Test]
 		public void ShouldBuildPdfDocument()
 		{
 			var document = PdfHelper.GetPdfDocument();
@@ -18,3 +18,4 @@ namespace pdfTests
 	}
 }
 
+;
