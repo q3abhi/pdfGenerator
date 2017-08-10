@@ -1,10 +1,26 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="pdfGeneration/PdfBuilder.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="pdfTests/PdfBuilderTest.cs">
     <Files>
-      <File FileName="pdfGenerationTest/PdfBuilderTest.cs" Line="8" Column="8" />
-      <File FileName="pdfGeneration/PdfBuilder.cs" Line="1" Column="1" />
+      <File FileName="pdfTests/PdfBuilderTest.cs" Line="11" Column="4" />
+      <File FileName="pdfGeneration/TemplateBuilder.cs" Line="32" Column="4" />
+      <File FileName="pdfGeneration/PdfBuilder.cs" Line="64" Column="31" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="pdfGeneration" expanded="True">
+            <Node name="pdfTests" expanded="True">
+              <Node name="pdfTests" expanded="True">
+                <Node name="PdfBuilderTest" expanded="True">
+                  <Node name="ShouldBuildPdfDocument" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

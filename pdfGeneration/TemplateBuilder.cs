@@ -25,10 +25,20 @@ namespace pdfGeneration
         }
 
 
-        private IList<XRect> GetAllRectangleObjects()
+		private IList<XRect> GetAllRectangleObjects(PdfPage page)
         {
+
+			var outerRectangle = GetOuterRectangle (page);
+
+
             return new List<XRect>();
 
         }
+
+		public XRect GetOuterRectangle(PdfPage page)
+		{
+			var outerRectangle = new XRect(30, 100, page.Width-60, page.Height-150);
+			return outerRectangle;
+		}
     }
 }
