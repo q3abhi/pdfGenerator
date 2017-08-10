@@ -20,6 +20,7 @@ namespace pdfGeneration
         public PdfDocument GetTemplate()
         {
             var page = PdfHelper.AddNewPage(document);
+			return document;
 
         }
 

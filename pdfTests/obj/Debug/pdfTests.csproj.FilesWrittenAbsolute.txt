@@ -1,0 +1,12 @@
+/home/abhishek/Documents/pdfGenerator/pdfTests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/abhishek/Documents/pdfGenerator/pdfTests/bin/Debug/nunit.framework.dll
+/home/abhishek/Documents/pdfGenerator/pdfTests/bin/Debug/pdfGeneration.dll
+/home/abhishek/Documents/pdfGenerator/pdfTests/bin/Debug/pdfGeneration.dll.mdb
+/home/abhishek/Documents/pdfGenerator/pdfTests/bin/Debug/PdfSharp.dll
+/home/abhishek/Documents/pdfGenerator/pdfTests/bin/Debug/PdfSharp.xml
+/home/abhishek/Documents/pdfGenerator/pdfTests/bin/Debug/de/PdfSharp.resources.dll
+/home/abhishek/Documents/pdfGenerator/pdfTests/bin/Debug/pdfTests.dll.mdb
+/home/abhishek/Documents/pdfGenerator/pdfTests/bin/Debug/pdfTests.dll
+/home/abhishek/Documents/pdfGenerator/pdfTests/obj/Debug/pdfTests.dll
+/home/abhishek/Documents/pdfGenerator/pdfTests/obj/Debug/pdfTests.dll.mdb
+/home/abhishek/Documents/pdfGenerator/pdfTests/bin/Debug/PdfSharp.Charting.dll

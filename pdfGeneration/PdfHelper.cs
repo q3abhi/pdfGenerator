@@ -43,5 +43,11 @@ namespace pdfGeneration
             page.Size = PageSize.A4;
             page.Orientation = PageOrientation.Portrait;
         }
+
+		public static PdfDocument GetPdfDocument()
+		{
+			var document = new PdfDocument();
+			return document;
+		}
     }
 }
