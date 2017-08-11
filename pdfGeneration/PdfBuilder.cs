@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
+using System.Web.Mvc;
 using PdfSharp;
 using PdfSharp.Drawing;
 using PdfSharp.Pdf;
@@ -10,21 +12,28 @@ namespace pdfGeneration
     public class PdfBuilder
     {
 
-        private TemplateBuilder templateBuilder;
+        private readonly TemplateBuilder _templateBuilder;
 
         public PdfBuilder(TemplateBuilder templateBuilderObject)
         {
-            templateBuilder = templateBuilderObject;
+            _templateBuilder = templateBuilderObject;
         }
 
 
         public void BuildPdfDocument(string filename)
         {
 
-            var pdfDocumentTemplate = templateBuilder.GetTemplate();
+            //    var pdfDocumentTemplate = _templateBuilder.GetTemplate();
+
+            var htmlText = "";
+
+            var pdfDocumentTemplate =
+                TheArtOfDev.HtmlRenderer.PdfSharp.PdfGenerator.GeneratePdf(htmlText,PageSize.A4);
 
             pdfDocumentTemplate.Save(filename);
         }
+
+
 
         public PdfPage AddNewPage(PdfDocument document)
         {
